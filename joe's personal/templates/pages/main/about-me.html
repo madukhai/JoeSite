@@ -1,0 +1,128 @@
+<div class='about'>
+	<section class="tab" ng-controller="TabController as tab"> 
+       <ul class="nav nav-pills">
+          <li ng-class="{active: tab.isSet(1)}">
+            <a href ng-click="tab.setTab(1)">Education</a></li>
+          <li ng-class="{active: tab.isSet(2)}">
+            <a href ng-click="tab.setTab(2)">Interests</a></li>
+           <li ng-class="{active: tab.isSet(3)}">
+            <a href ng-click="tab.setTab(3)">Description</a></li>
+        </ul>
+       	<div class='education' ng-show="tab.isSet(1)"> 		     	
+        		<div class='graduate'>
+        			<img ng-src='./imgs/ut/logo1.png'>
+        		</div>
+        		
+        		<div class='pull-left'>
+        			<img ng-src='./imgs/ut/me.jpg'>
+        		</div>
+        		
+        		<div class='major'>
+        			<div class='photos'>
+        				<img ng-src='./imgs/ut/rb1.jpg'>
+        				<img ng-src='./imgs/ut/ba.jpg'>
+        				<img ng-src='./imgs/ut/rb.jpg'> 
+        				<img ng-src='./imgs/ut/union.jpg'>
+        			</div>
+        			<div class='pull-right say'>
+        				<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 2014.11.17, I Graduate form University of Toronto.
+        				I was majoring <strong>Computer science and Statistics</strong>.
+        				Before I went here, I heard a lot of things about 'UT' that is so difficult to graduate.
+        				But, those things made me more want to be one member of UT, because There will be 'THE PLACE' where may change my life.
+        				It was a challenge that most of people around me told me that I'm not gonna success, and they are wrong! I made it, because I wanted it,
+        				 and I believed I can do it, and I did it! Here you can feel competition which makes you strong and better. Still can feel the exciting when we finished
+        				 the CSC209 project after 2-day-in-a-row without sleeping. When we were in RB library for studying before the finals, the moment when I get the point of the question with the sound 'Oh.....I get it!' 
+        				</p>
+        				
+        			</div>
+        		</div>       	
+        </div> 
+        <div class='hobby'  ng-show="tab.isSet(2)">
+        	<div class='head-part'>
+        		<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Sometimes, I want to try something new, something meaningful and healthy.
+        		I like traveling, camping, working out, different kind of group activities(like paint ball) and sports(basket ball, baseball, golf and Judo). Alse, I like some vedio games too.
+        		</p>
+        	</div>
+        	<div class='skydiving pull-left'>
+        		<div class='photos'>
+        			<img ng-src='./imgs/me/sky.jpg'>
+        			<img ng-src='./imgs/me/sky1.jpg'>
+        			<img ng-src='./imgs/me/sky2.jpg'>
+        			<img ng-src='./imgs/me/sky3.jpg'>
+        			<img ng-src='./imgs/me/sky5.jpg'>
+        			<img ng-src='./imgs/me/sky6.jpg'>
+        		</div>
+        		<div class='pic-description'>
+        			<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp These 60sec might be the most excited, incentive and awesome moment! But, once is enough for me lol. I still can 
+        			remember the thrill while I made a phone call to my parents right before I jump into the flight.</p>
+        		</div>
+        	</div>
+        	<div class='Cuba pull-left'>
+        		<div class='photos'>
+        			<img ng-src='./imgs/me/cuba.jpg'>
+        			<img class='rotate-needed' ng-src='./imgs/me/cuba1.jpg'>
+        			<img ng-src='./imgs/me/cuba2.jpg'>
+        			<img class='rotate-needed' ng-src='./imgs/me/cuba3.jpg'>
+        			<img class='rotate-needed' ng-src='./imgs/me/cuba5.jpg'>
+        			<img class='rotate-needed' ng-src='./imgs/me/cuba6.jpg'>
+        		</div>
+        		<div class='pic-description'>
+        			<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Cuba!!! That winter is the best winter I had since I came to Toronto! Free wines, beautiful beach and tasty food! I'm going there again someday!</p>
+        		</div>
+        	</div>
+        	<div class='other pull-left'>
+        		<div class='photos'>    			
+        			<img ng-src='./imgs/me/other1.jpg'>
+        			<img ng-src='./imgs/me/other2.jpg'>
+        			<img ng-src='./imgs/me/other5.jpg'>
+        			<img ng-src='./imgs/me/other.jpg'>
+        			<img ng-src='./imgs/me/nba-2k15.jpg'>   
+        			<img ng-src='./imgs/me/goodlife.jpeg'>
+        		</div>
+        		<div class='pic-description'>
+        			<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp I love different kind of exersizes and group activities. traveling, play paint ball with some strategy and group work(shot right on the head! LOL). For me, team work is important, it doubles the happiness and make things easier.
+        			After the game, we can sit together joking something, laugh, eat pizza... You won't regret!
+        			Of course, for those activities, I need to make my body strong, fast and healthy, so I get a GoodLife membership and work out, the strong guys in the photo are the trainer who are my close friends.
+        			I love my life, and I always believe that I will be better!</p>
+        		</div>
+        	</div>
+        </div>
+        <div class='description' ng-show="tab.isSet(3)">
+        	<h1>What kind of Person is Joe?</h1>
+        	<div class='philosophy pull-left'>
+        	<p>Maybe because of the education I've got in China, I was a lazy, negative and 'I have to do it, because someone else is pushing me' kind of guy.
+        	But, University of Toronto changed me. Here is no one to push me to do the homework or study in certain time. All of the study is on my self.
+        	I found that the air in the campus is different. If I don't push myself to learn, to study, to actually practice, I'll be one of the losers who are kick out or leave the campus by there own selves(40%).
+        	To get in the U of T may be my first important and right decision in my life, so I really did not want to fail. So I know, I have to find a way to let me success.
+        	So, I start to think in this way---<span>I'm guilty, if I'm lazy. I'm falling, if I'm lazy. I'm loser, if I can't beat myself.</span> And
+        	 it start to work. I feel much better study late in library and I start to enjoy the result for my hard-working. Then I have <span class='key-sen'>"I can do it, I'm doing it, see? I did it!"</span>.
+        	 Sometimes, things are more complecated. But since I really wanted it, I can always find a way to solve it! <span>"Now, it is hard time. I'm tired. I'm struggling. I'm still trying. I'll make it!".</span> 
+        	</p>
+        	<p>I think I'm good. I try to be better. I feel guilty when I fail or do things wrong, and I hate the feeling. I feel better when I fix it, but never better than if I do things right in the first place.
+        	The MOST thing I hate is that I tell myself 'I can't do it.' especially others think I should or I can.
+        	</p>
+        	</div>
+        	<div class='summary pull-left'>
+        		<p>I'm a <span>passionate</span> guy. I love the emotion when I'm working and I feel passion. Becasuse, in that mode, I'm so efficient.
+        		My friends says I'm "always too much energy". 
+        		I learn things fast---- yes, I really think I'm smart! I'm not arrogant, I'm just confident.
+        		I live alone really early. My parents are too busy. So, my another surviving skill wakes up--<span>High adaptability</span>.
+        		I have to adapt to new environment fast. 
+        		</p>
+        		<p><span>I like to make friends</span>, because I can get much many positive engery from them and by giving them some positive energy.
+        		I really mind that some one is late for the appointmen, because that will affect my whole plan of the day or week.
+        		As my age raises, I'm willing to manege my time, so that I won't waste my time, and do something meaningful. 
+        		</p>
+        		
+        		<p>I can speak English, Chinese and Korean. 
+        		</p>
+        		<p>Okey, this is my confession time....I'm in diet, but I ate Popeyes LOL..
+        		<span>I don't have IT-work experience. I'm rookey. But I need a chance to fix it!</span>
+        		Experience is not chicken brust, I can't buy it--- even though I relly want to buy if I can.
+        		I'm foreigner, I'm slightly different, but I want to learn the culture here by be a friend or co-worker and have lunch and talk.
+        		</p>
+        	</div>
+       	</div>
+	</section>
+	
+</div>     		 

@@ -1,0 +1,65 @@
+<div class='experience'>
+	<section class="tab" ng-controller="TabController as tab"> 
+       <ul class="nav nav-pills">
+          <li ng-class="{active: tab.isSet(1)}">
+            <a href ng-click="tab.setTab(1)">Work</a></li>
+          <li ng-class="{active: tab.isSet(2)}">
+            <a href ng-click="tab.setTab(2)">Project</a></li>
+        </ul>
+        		
+        <div class='work' ng-show="tab.isSet(1)">
+        
+			<h1>Work Experience</h1>
+			<div class="jiangnan pull-left">
+				<div class='pull-left des'>
+					<p>2008.09 - 2009-04<br>
+					I was doing <span>internship</span> in Jiang Nan Golf Club, Shenyang, China as <span>translator(English-Chinese-Korean)</span>.
+					This company was the only golf club which is placed in the center of Shenyang, and it was one of the best in Liaoning province.
+					</p>
+				</div>
+				<div class='photos pull-left'>
+					<img src='./imgs/img/jiangnan/jn.jpg'>
+					<img src='./imgs/img/jiangnan/jn1.jpg'>
+					<img src='./imgs/img/jiangnan/jn2.jpg'>
+					<img src='./imgs/img/jiangnan/jn3.jpg'>
+				</div>
+			</div>
+       		<div class='pull-left'>
+       			<div class='des pull-left'>
+       				<p>2012.05 - 2012.08<br>
+       				During the summer I've got a part-time job, which is caddie & driver(double pay) in QianHu Golf Club, Shenyang, China.
+       				This is the biggest golf club in Shenyang, and it is one of the best in Liaoning province.
+       				</p>
+       			</div>
+       			<div class='pull-left photos'>
+       				<img src='./imgs/img/qianhu/qianhu.jpg'>
+       				<img src='./imgs/img/qianhu/qianhu1.jpg'>
+       				<img src='./imgs/img/qianhu/qianhu2.jpg'>
+       				<img src='./imgs/img/qianhu/qianhu3.jpg'>
+       				
+       			</div>
+       		</div>
+        </div>
+        <div class='project' ng-show="tab.isSet(2)">
+        	<h1>Projects</h1>
+        	<div class='jsite'>
+        		<p><span>Joe's Site(this one):</span><br>
+        		<a ng-href='https://github.com/madukhai/JoeSite'>https://github.com/madukhai/JoeSite</a><br>
+        		This project is my first web project since I graduated. It includes Javascript, HTML5, CSS3 using STS as tool, and AngularJS is also included.
+        	 	This project is just a prototype, and I'm adding more things every day to make it looks better and has more features.
+				This site is simply introduce myself, so that let people know me more and easier.<br>
+				<span>Status:</span> in-progress.
+        		</p>
+        	</div>
+        	<div class='jshop'>
+        		<p><span>Joe's Shop:</span><br>
+        		<a ng-href="https://github.com/madukhai/JoeShop">https://github.com/madukhai/JoeShop</a><br>
+        		This project is my second web project since I graduated. It includes Javascript(jQuery), HTML5, CSS3, SQL using STS and MySQL as tool, and fronr-end is angularJs and back-end is nodeJS.
+        	 	This project is just a started. This is a shopping site include cart, item-list, recommand-list, location.<br>
+				<span>Status:</span> in-progress, just starting.
+        		</p>
+        	</div>
+        </div>
+        
+	</section>
+</div>

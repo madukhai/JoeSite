@@ -1,0 +1,337 @@
+
+body{
+	background-image: url("../imgs/bg_imgs/bg20.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+main{
+	border: 1px solid black;
+	width: 1600px;
+	height: 800px;
+	margin: auto;
+	overflow-x: hidden;
+ 	overflow-y: auto;
+}
+header{
+	margin: 0px;
+	padding: 20px;
+	width:1600px;
+	height:100px;
+	text-align: center;
+	color: #008040;
+}
+ul {
+	list-style-type: none;
+}
+.box {
+	overflow-x: hidden;
+ 	overflow-y: auto;
+}
+
+.main.box {
+	background: rgba(10,10,200,0.2);
+	margin-left: auto;
+	margin-right: auto;
+	top: 10px;
+	left: 0px;
+}
+
+.home {
+	padding: 30px;
+	background-image: url("../imgs/bg_imgs/bg14.jpg");
+	background-repeat: repeat-y;
+	width: 1600px;
+	height: 800px;	
+}
+.home h1{
+	margin-left: 20px;
+	color: #000080;
+	width: 500px;
+	height: 50px;
+}
+
+.intro {
+	font-style: italic;
+	font-size: 20px;
+	width: 700px;
+	height: 650px;
+	float: left;
+	position: relative;
+	background: rgba(0,220,0,0.3);
+	padding: 10px;
+	
+	font-size: 25px;
+}
+.intro .keysen {
+	font-size: 35px;
+}
+.intro a {
+	color: red;
+}
+.coverletter {
+	font-style: italic;
+	font-size: 20px;
+	padding: 10px;
+	margin-right: 100px;
+	float: left;
+	background: rgba(220,220,0,0.3);
+	padding: 10px;
+	width: 700px;
+	height: 650px;
+	color: #400040;
+	font-size: 20px;
+}
+.home span{
+	font-size: 15px;
+	color: red;
+} 
+.home .keywords {
+	font-size: 35px;
+	color: black;
+}
+.techinclude {
+	
+}
+.about {
+	padding: 1px;
+	background: rgba(100,110,110,0.3);
+	background-repeat: repeat;	
+	width: 1600px;
+	height: 850px;
+}
+.education{
+	padding: 30px;
+	background-image: url("../imgs/bg_imgs/bg16.jpg");
+	background-repeat: repeat;	
+	width: 1600px;
+	height: 800px;
+}
+.education .pull-left img{
+	width: 300px;
+	height: 400px;
+}
+.education .graduate{
+	width: 600px;
+	height: 200px;
+}
+.education .graduate img{
+	top: -50px;
+	width: 600px;
+	height: 200px;
+	float: left;
+}
+.education .major {	
+	right: 10px;
+	top: 50px;
+	float: left;
+}
+.education .major .photos {
+	width: 450px;
+	height: 450px;
+	position: relative;
+	float: left;
+}
+.education img{
+	width: 200px;
+	height: 200px;
+	float: left;
+	position: relative;
+}
+.education .major .say{
+	background: rgba(12,12,12,0.9);
+	padding: 10px;
+	width: 700px;
+	height: 400px;
+	color: #0080ff;
+	font-size: 20px;
+}
+
+.hobby {
+	padding: 10px;
+	background-image: url("../imgs/bg_imgs/bg19.jpg");
+	background-repeat: repeat;	
+	width: 1600px;
+	height: 800px;
+}
+.hobby .head-part {
+	height: 70px;
+	width: 1500px;
+	color: black;
+	font-size: 20px;
+}
+.hobby .skidiving {
+	width: 500px;
+	height: 700px;
+	position: relative;
+	float: left;
+}
+.hobby .cuba {
+	float: left;
+	width: 500px;
+	height: 700px;
+	float: left;
+}
+.hobby .cuba .rotate-needed {
+	transform: rotate(90deg);
+}
+.hobby .photos {
+	width: 450px;
+	height: 600px;
+}
+.hobby img {
+	width: 200px;
+	height: 200px;
+	
+}
+.hobby .other .photos {
+	width: 650px;
+	height: 400px;
+}
+
+.rotate-needed {
+	transform: rotate(90deg);
+}
+.hobby .pic-description {
+	margin-top: 10px;
+	padding: 10px;
+	height: 100px;
+	width: 400px;
+	background: rgba(0,0,200,0.3);
+}
+
+.hobby .other .pic-description {
+	
+	height: 300px;
+	width: 610px;
+	
+}
+
+.description {
+	padding: 30px;
+	background-image: url("../imgs/bg_imgs/bg_z1.jpg");
+	background-repeat: repeat;	
+	width: 1600px;
+	height: 800px;
+	color: #00ff00;
+}
+.description h1{
+	color: yellow;
+	text-align: center;
+}
+.description .philosophy, .summary{
+	width: 600px;
+	height: 600px;
+	font-size: 18px;
+	background: rgba(0,0,0,0.4);
+}
+.description .philosophy{
+	margin: 0 300px 0 0;
+}
+.description span {
+	font-size: 25px;
+	color: yellow;
+}
+.skills {
+	padding: 10px;
+	background-image: url("../imgs/bg_imgs/bg17.jpg");
+	background-repeat: repeat;	
+	width: 1600px;
+	height: 800px;
+}
+.experience {
+	padding: 30px;
+	background-image: url("../imgs/bg_imgs/bg12.jpg");
+	background-repeat: repeat;	
+	width: 1600px;
+	height: 800px;
+}
+.contact {
+	padding: 30px;
+	background-image: url("../imgs/bg_imgs/bg5.jpg");
+	background-repeat: repeat;	
+	width: 1600px;
+	height: 800px;
+}
+.contact p{
+	font-size: 20px;	
+}
+.experience .work .photos {
+	width: 420px;
+	height: 420px;
+}
+.experience h1 {
+	color: yellow;
+}
+.experience p{
+	background: rgba(0,50,0,0.3);
+	padding: 20px;
+}
+.experience a {
+	color: green;
+}
+.experience .work .des {
+	padding: 10px;
+	color: red;
+	width: 300px;
+	height: 400px;
+	font-size: 20px;
+}
+.experience .work span {
+	font-size: 25px;
+	color: pink;
+}
+.experience .work img{
+	width: 200px;
+	height: 200px;
+}
+.experience .work .jiangnan {
+	margin-right: 30px;
+}
+
+.experience .project{
+	color: pink;
+	font-size: 20px;
+}
+.experience .project div{
+	margin-bottom: 60px;
+}
+.experience .project a{
+	color: green;
+}
+.experience .project span{
+	font-size: 30px;
+	color: red;
+}
+.skills div {
+	padding: 20px;
+	magin: 20px;
+}
+.skills p {
+	font-size: 30px;
+}
+.skills strong {
+	font-size: 40px;
+}
+.tab {
+	margin: 10px 0 0 10px;
+}
+
+.pull-left {
+	float: left;
+}
+em.categories{
+	color: #ffffff;
+	font-size: 150%;
+	margin: 50px 5px 50px 5px;
+}
+	
+
+.footer-main {
+	text-align: center;
+	color: green;
+	font-size: 30px;
+}
+
+
+
